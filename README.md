@@ -5,6 +5,7 @@
 #### Internal information 
 - **Version**        : v1.0.0
 - **Date**           : 15/5/2019
+- **Author**         : Katarina Perendic
 
 ## Project description
 
