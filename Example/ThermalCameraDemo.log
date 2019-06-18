@@ -1,0 +1,79 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407ZG -BIN -LHF -DL -SSA -O11111114 -fo168 -N"D:\Projects_git\demo_app\ThermalCamera\ThermalCameraDemo.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"D:\Projects_git\demo_app\ThermalCamera\" -SP"D:\Projects_git\demo_app\ThermalCamera\Library\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS BDF API\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\IR Grid 2 Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Matrix RGB Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\ProxFusion 2 Click\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -IP"D:\Projects_git\demo_app\ThermalCamera\Library\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS BDF API\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\IR Grid 2 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Matrix RGB Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\ProxFusion 2 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\" "ThermalCameraDemo_main.c" "ThermalCameraDemo_events_code.c" "ThermalCameraDemo_driver.c" "ThermalCameraDemo_resources.c" "color_scale.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "__Lib_CType.emcl" "__Lib_CString.emcl" "__Lib_Conversions.emcl" "__Lib_Button.emcl" "__Lib_I2C_123.emcl" "__Lib_PWM_1234589_12_10_11_13_14.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45_6.emcl" "__Lib_SDIO.emcl" "__Lib_PortExpander.emcl" "__Lib_Mmc_SDIO.emcl" "__Lib_MmcFat16.emcl" "__Lib_MmcFat16Constants.emcl" "__Lib_TFT.emcl" "__Lib_TFT_Defs.emcl" "__Lib_FT5XX6_gesture_decoder.emcl" "__Lib_FT5XX6.emcl" "__Lib_FAT32_Driver_STM32_M3_M4_M7.emcl" "__Lib_FAT32_Defs_STM32_M3_M4_M7.emcl" "__Lib_FAT32_STM32_M3_M4_M7.emcl" "Matrix_RGB_STM32_M4.emcl" "fusion_v8_STM32F407ZG.emcl" "IR_Grid2_STM32_M4.emcl" "ProxFusion_2_STM32_M4.emcl" "G2C_STM32_M4.emcl" "demo_pld.pld"	 
+diagnostics: 0	122	Compilation Started	thermalcamerademo_objects.h
+hint: 0	1004	interrupt handler (Timer_interrupt at 0x002C)	demo_timer.h
+diagnostics: 380	123	Compiled Successfully	ThermalCameraDemo_main.c
+diagnostics: 0	122	Compilation Started	thermalcamerademo_objects.h
+warning: 389	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 390	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 392	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 394	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 398	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 399	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 401	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 403	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 407	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 408	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 410	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 412	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 416	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 417	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 419	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 421	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 425	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 426	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 428	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 430	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 434	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 435	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 437	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 439	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 443	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 444	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 446	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 448	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 452	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 453	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 455	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 457	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 461	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 462	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 464	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 466	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 470	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 471	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 473	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+warning: 475	1505	Suspicious pointer conversion	ThermalCameraDemo_events_code.c
+diagnostics: 476	123	Compiled Successfully	ThermalCameraDemo_events_code.c
+diagnostics: 0	122	Compilation Started	thermalcamerademo_objects.h
+warning: 245	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 277	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 289	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 307	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 333	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 359	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 385	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 411	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 437	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 463	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 489	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 515	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 541	1508	Implicit conversion of int to ptr	ThermalCameraDemo_driver.c
+warning: 581	1506	Implicit conversion of pointer to int	ThermalCameraDemo_driver.c
+warning: 583	1506	Implicit conversion of pointer to int	ThermalCameraDemo_driver.c
+warning: 606	1506	Implicit conversion of pointer to int	ThermalCameraDemo_driver.c
+warning: 608	1506	Implicit conversion of pointer to int	ThermalCameraDemo_driver.c
+warning: 615	1506	Implicit conversion of pointer to int	ThermalCameraDemo_driver.c
+diagnostics: 1094	123	Compiled Successfully	ThermalCameraDemo_driver.c
+hint: 1028	1164	Variable 'errorCode' has been eliminated by optimizer	ThermalCameraDemo_driver.c
+diagnostics: 0	122	Compilation Started	ThermalCameraDemo_resources.c
+diagnostics: 4	123	Compiled Successfully	ThermalCameraDemo_resources.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 80	123	Compiled Successfully	color_scale.c
+diagnostics: 0	127	All files Compiled in 719 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 51874   Dynamic RAM (bytes): 79193	Static RAM (bytes): 51874   Dynamic RAM (bytes): 79193
+hint: 0	1144	Used ROM (bytes): 126152 (12%)  Free ROM (bytes): 922424 (88%)	Used ROM (bytes): 126152 (12%)  Free ROM (bytes): 922424 (88%)
+diagnostics: 0	125	Project Linked Successfully	ThermalCameraDemo.mcpar
+diagnostics: 0	128	Linked in 671 ms	 
+diagnostics: 0	129	Project 'ThermalCameraDemo.mcpar' completed: 1593 ms	 
+diagnostics: 0	103	Finished successfully: 16 maj 2019, 09:40:15	ThermalCameraDemo.mcpar

@@ -1,0 +1,136 @@
+[DEVICE]
+Name=STM32F407ZG
+Clock=168000000
+[VTFT]
+File=ThermalCameraDemo.vtft
+_etMain=ThermalCameraDemo_main.c
+_etDriver=ThermalCameraDemo_driver.c
+_etEvents=ThermalCameraDemo_events_code.c
+_etObjects=ThermalCameraDemo_objects.h
+_etResources=ThermalCameraDemo_resources.c
+_etResourceHeader=ThermalCameraDemo_resources.h
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=ThermalCameraDemo_main.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+File0=ThermalCameraDemo_main.c
+File1=ThermalCameraDemo_events_code.c
+File2=ThermalCameraDemo_driver.c
+File3=ThermalCameraDemo_resources.c
+File4=.\Library\color_scale.c
+Count=5
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+File0=ThermalCameraDemo_main.c
+File2=.\C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS BDF API\Uses\fusion_v8_STM32F407ZG.c
+Count=3
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Path0=.\Library\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS BDF API\Uses\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\IR Grid 2 Click\Uses\
+Path4=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Matrix RGB Click\Uses\
+Path5=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\ProxFusion 2 Click\Uses\
+Path6=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\
+Count=7
+[HEADER_PATH]
+Path0=.\Library\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\FAT32 Library\Uses\
+Path2=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\mikroBUS BDF API\Uses\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\IR Grid 2 Click\Uses\
+Path4=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\Matrix RGB Click\Uses\
+Path5=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\ProxFusion 2 Click\Uses\
+Path6=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Packages\G2C Click\Uses\
+Count=7
+[HEADERS]
+File0=ThermalCameraDemo_resources.h
+File1=ThermalCameraDemo_objects.h
+File2=.\Library\color_scale.h
+File3=.\Library\demo_config.h
+File4=.\Library\demo_types.h
+File5=.\Library\fonts.h
+File6=.\Library\images.h
+Count=7
+[PLDS]
+File0=.\Library\demo_pld.pld
+Count=1
+[Useses]
+File0=UART
+File1=fusion_v8_STM32F407ZG
+File2=IR_Grid2_STM32_M4
+File3=Matrix_RGB_STM32_M4
+File4=FAT32_Defs_STM32_M3_M4_M7
+File5=FAT32_Driver_STM32_M3_M4_M7
+File6=FAT32_STM32_M3_M4_M7
+File7=Button_PLAY_STM32_M4
+File8=PWM
+File9=Button
+File10=ProxFusion_2_STM32_M4
+File11=C_String
+File12=C_Type
+File13=Conversions
+File14=FT5xx6
+File15=FT5xx6_Gesture_Decoder
+File16=I2C
+File17=Mmc
+File18=Mmc_FAT16
+File19=Mmc_FAT16_Config
+File20=Mmc_FAT16_Defs
+File21=Port_Expander
+File22=SDIO
+File23=SPI
+File24=TFT
+File25=TFT_Defs
+File26=TFT_Fonts
+File27=G2C_STM32_M4
+Count=28
+[EXPANDED_NODES]
+0=ThermalCameraDemo.mcpar
+1=Sources
+Count=2
+[LIB_EXPANDED_NODES]
+0=
+1=
+2256=
+2257=
+2292=
+2304=
+Count=7
+[PROGRAMMER_OPTIONS]
+Value=SWD
+[PROGRAMMER_TYPE]
+Value=mikroE CodeGrip
+[DEBUGGER_TYPE]
+Value=default
+[NECTO_OPTIONS]
+NECTO_RESET_TYPE=0
+NECTO_ERASE_TYPE=0
+NECTO_CONNECTION=1
+NECTO_SPEED=4
+NECTO_HALT_AFTER=0
+NECTO_VERIFY_AFTER=1
+[AT_DEBUG_STARTUP]
+LOAD_BIN_TO_RAM=0
+START_EXEC_FROM_ADDR=0
+START_ADDR=-1
